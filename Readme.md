@@ -14,6 +14,11 @@ python text_gen.py
 ```
 生成数据集，缺什么库安装什么就行。
 
+# 安装依赖库
+```bash
+pip install -r requirements.txt
+```
+
 # 使用
 预训练模型：
 
@@ -21,7 +26,6 @@ python text_gen.py
 提取码：e3ah
 
 放入ABINet文件夹中
-
 
 识别图片
 ```bash
