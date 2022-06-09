@@ -15,6 +15,14 @@ python text_gen.py
 生成数据集，缺什么库安装什么就行。
 
 # 使用
+预训练模型：
+
+链接：https://pan.baidu.com/s/1TrXBIybAO6-WmXHzzn0krw 
+提取码：e3ah
+
+放入ABINet文件夹中
+
+
 识别图片
 ```bash
 python demo_image.py -p <文件路径>
