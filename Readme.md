@@ -6,4 +6,24 @@
 使用[TextRecognitionDataGenerator](https://github.com/Belval/TextRecognitionDataGenerator) 自动生成得到。
 数据集生成过程中使用[albumentations](https://albumentations.readthedocs.io/) 库进行数据增强，提高模型泛化能力。
 
+# 数据集制作
+运行命令
+```bash
+cd data_gen
+python text_gen.py
+```
+生成数据集，缺什么库安装什么就行。
+
+# 使用
+识别图片
+```bash
+python demo_image.py -p <文件路径>
+python demo_image.py -p <文件路径> --step #生成检测视频
+```
+
+识别视频
+```bash
+python demo_video.py -p <文件路径>
+```
+
 ![识别效果 ](image/kl.png)
